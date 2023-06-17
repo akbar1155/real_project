@@ -3,6 +3,7 @@ header .container {
   align-items: center;
   justify-content: space-around;
   padding-top: 36px;
+  margin-bottom: 36px;
 }
 .input__form {
   display: flex;
@@ -24,8 +25,6 @@ header .container {
   right: 0;
   top: 13px;
   right: 16px;
-}
-.option__header {
 }
 .select__header {
   border: none;
