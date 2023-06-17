@@ -1,0 +1,67 @@
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 36px;
+}
+.input__form {
+  display: flex;
+  position: relative;
+  max-width: 420px;
+}
+.search__input {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  max-width: 420px;
+  border-radius: 8px;
+  color: #808080;
+  display: flex;
+  font-size: 20px;
+}
+.search__svg__img {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  right: 16px;
+}
+.option__header {
+}
+.select__header {
+  border: none;
+  padding: 10px;
+  border: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #1c3554;
+}
+.select__header:hover {
+  border: none;
+  color: #021934;
+}
+.one__of__word {
+  font-family: "Montserrat",sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #1c3554;
+}
+.btn__for__login {
+  border: 1px solid #1c3554;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #1c3554;
+}
+.btn__for__sign {
+    background-color: #F72585;
+    padding: 8px 32px;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+    font-family: "Montserrat";
+    border: none;
+}
