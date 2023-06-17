@@ -19,8 +19,6 @@ export function Header() {
           />
           <img src={Search} alt="" className="search__svg__img" />
         </div>{" "}
-        <a href="/blog">blog</a>
-        <a href="/">home</a>
         <select
           name=""
           id=""
