@@ -3,6 +3,7 @@ import { Logo } from "../../images/svg";
 import Search from "../../images/Search.svg";
 import "../header/header.css";
 import { useNavigate } from "react-router-dom";
+import Dropdown from "../dropdown/dropdown";
 
 export function Header() {
   const navigate = useNavigate();
@@ -30,14 +31,12 @@ export function Header() {
           <option value="/" className="option__header">
             Category
           </option>
+
           <option value="/" className="option__header">
-            <a href="/">home</a>
+            Home
           </option>
           <option value="/blog" className="option__header">
             <a href="/blog">blog</a>
-          </option>
-          <option value="" className="option__header">
-            contact
           </option>
         </select>
         <a href="#" className="one__of__word">
