@@ -3,7 +3,6 @@ import { Logo } from "../../images/svg";
 import Search from "../../images/Search.svg";
 import "../header/header.css";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "../dropdown/dropdown";
 
 export function Header() {
   const navigate = useNavigate();
