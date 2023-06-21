@@ -1,15 +1,15 @@
-<<<<<<< HEAD
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Footer from './components/footer/Footer'
-import { Header } from './components/header/header'
-import { Intro } from './components/intro/intro'
-=======
 import React from "react";
 import ReactDOM from "react-dom/client";
->>>>>>> 0944de2d610f4fb45b7729e7ee8b187917767687
+import Footer from "./components/footer/Footer";
+import { Header } from "./components/header/header";
+import { Intro } from "./components/intro/intro";
 
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 import Blogpages from "./pages/Blog/blogpages";
 import Home from "./pages/home/home";
 import Courses from "./pages/Courses/Courses";
@@ -34,14 +34,10 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-<<<<<<< HEAD
-    <Header />
-    <Intro />
-    <Footer/>
-  </React.StrictMode>,
-)
-=======
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <Header />
+      <Intro />
+      <Footer />
+    </RouterProvider>
   </React.StrictMode>
 );
->>>>>>> 0944de2d610f4fb45b7729e7ee8b187917767687

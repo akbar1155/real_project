@@ -1,7 +1,6 @@
 // import React from 'react'
 import './Footer.css'
-import LogoIpsum from '../images/Logo.svg'
-
+import LogoIpsum from '../../images/Logo.svg'
 function Footer() {
   return (
     <div className="footer">
