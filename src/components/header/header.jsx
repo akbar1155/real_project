@@ -35,7 +35,7 @@ export function Header() {
             Home
           </option>
           <option value="/blog" className="option__header">
-            <a href="/blog">blog</a>
+            blog
           </option>
         </select>
         <a href="#" className="one__of__word">

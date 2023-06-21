@@ -9,7 +9,8 @@ import {
   RouterProvider,
   Route,
   BrowserRouter,
-} from "react-router-dom";
+} 
+from "react-router-dom";
 import Blogpages from "./pages/Blog/blogpages";
 import Home from "./pages/home/home";
 import Courses from "./pages/Courses/Courses";

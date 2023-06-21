@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     padding-top:70px;
+    box-sizing: border-box;
 }
 .footer__links{
     display: flex;
@@ -25,5 +26,8 @@
 .footer__link{
     display: flex;
     flex-direction: column;
+    gap:10px;
 }
-
+a{
+    color: aliceblue;
+}
