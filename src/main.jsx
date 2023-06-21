@@ -1,7 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Footer from "./components/footer/Footer";
+import { Header } from "./components/header/header";
+import { Intro } from "./components/intro/intro";
 
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import {
+  createBrowserRouter,pm
+  RouterProvider,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
 import Blogpages from "./pages/Blog/blogpages";
 import Home from "./pages/home/home";
 import Courses from "./pages/Courses/Courses";
@@ -26,6 +34,10 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <Header />
+      <Intro />
+      <Footer />
+    </RouterProvider>
   </React.StrictMode>
 );

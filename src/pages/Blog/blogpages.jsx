@@ -4,9 +4,8 @@ import { Header } from "../../components/header/header";
 
 const Blogpages = () => {
   return (
-    <div>
+    <div className="container">
       <Header />
-      <NestedDropdown />
       <h1>blog</h1>
     </div>
   );
