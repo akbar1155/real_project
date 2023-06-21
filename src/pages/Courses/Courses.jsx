@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/footer/Footer";
 import { Header } from "../../components/header/header";
 import Homelink1 from "../../components/Homelinkpages/homelink1";
 
@@ -8,6 +9,7 @@ const Courses = () => {
       <Header />
       <Homelink1 />
       <h1>hello courses</h1>
+      <Footer />
     </div>
   );
 };

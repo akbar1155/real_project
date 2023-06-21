@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import Footer from "./components/footer/Footer";
 import { Header } from "./components/header/header";
 import { Intro } from "./components/intro/intro";
-
+import "./index.css";
 import {
-  createBrowserRouter,pm
+  createBrowserRouter,
   RouterProvider,
   Route,
   BrowserRouter,

@@ -4,29 +4,35 @@
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3 {
   font-family: "Rubik", sans-serif;
 }
+
 a {
   text-decoration: none;
   background-color: inherit;
 }
+
 ul {
   list-style-type: none;
 }
-.container {
+
+.container2 {
   max-width: 1270px;
   padding: 0 20px;
   box-sizing: border-box;
   margin: 0 auto;
 }
+
 .btn {
   padding: 8px 32px;
   border-radius: 8px;
 }
-a ,
+
+a,
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

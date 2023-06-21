@@ -2,15 +2,18 @@
     display: flex;
     font-family: 'Montserrat SemiBold';
     font-size: 16px;
-    color: #E6E6E6;
+    // color: #E6E6E6;
     align-items: center;
-    // &__p1 {
-    //     font-size: 40px;
-    //     color: black;
-    //     width: 150px;
-    //     height: 140px;
-    //     background-color: black;
-    // }
+
+    &__p1 {
+        font-size: 40px;
+        color: black;
+        width: 150px;
+        height: 140px;
+        background-color: black;
+        font-size: 16px;
+        line-height: 32px;
+    }
 }
 
 .flex1 {

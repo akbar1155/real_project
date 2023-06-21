@@ -4,7 +4,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 const Homelink2 = () => {
   return (
-    <div className="flex1 homelink container ">
+    <div className=" homelink container2">
       <a href="/ProgrammingCourses" className="hommelink__a1">
         Home
       </a>

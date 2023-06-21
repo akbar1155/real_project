@@ -1,0 +1,31 @@
+.div1 {
+    // background-color: #021934;
+    opacity: 0.8;
+
+    &__expert {
+        margin-top: 50px;
+
+        &__h1 {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            /* or 133% */
+            width: 712px;
+            height: 128px;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+
+            /* Text/white */
+
+            // color: #FFFFFF;
+        }
+
+        &__span1 {
+            display: flex;
+            // color: #FAA307;
+
+            font-size: 30px;
+        }
+    }
+}
