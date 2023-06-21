@@ -1,15 +1,17 @@
-header .container {
+header .container1 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 36px;
   margin-bottom: 36px;
 }
+
 .input__form {
   display: flex;
   position: relative;
   max-width: 420px;
 }
+
 .search__input {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -20,12 +22,14 @@ header .container {
   display: flex;
   font-size: 20px;
 }
+
 .search__svg__img {
   position: absolute;
   right: 0;
   top: 13px;
   right: 16px;
 }
+
 .select__header {
   border: none;
   padding: 10px;
@@ -37,16 +41,19 @@ header .container {
   line-height: 32px;
   color: #1c3554;
 }
+
 .select__header:hover {
   border: none;
   color: #021934;
 }
+
 .one__of__word {
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #1c3554;
 }
+
 .btn__for__login {
   border: 1px solid #1c3554;
   background-color: white;
@@ -55,12 +62,13 @@ header .container {
   line-height: 32px;
   color: #1c3554;
 }
+
 .btn__for__sign {
-    background-color: #F72585;
-    padding: 8px 32px;
-    font-size: 16px;
-    line-height: 32px;
-    color: white;
-    font-family: "Montserrat";
-    border: none;
+  background-color: #F72585;
+  padding: 8px 32px;
+  font-size: 16px;
+  line-height: 32px;
+  color: white;
+  font-family: "Montserrat";
+  border: none;
 }

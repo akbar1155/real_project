@@ -8,15 +8,11 @@ export function Header() {
   const navigate = useNavigate();
   return (
     // Start Header section
-    <header className="header">
-      <div className="container">
+    <header className="header container2">
+      <div className="container1">
         <Logo />
         <div className="input__form">
-          <input
-            type="text"
-            placeholder="Search Bar"
-            className="search__input"
-          />
+          <input type="text" placeholder="Search Bar" className="px-4 py-2" />
           <img src={Search} alt="" className="search__svg__img" />
         </div>{" "}
         <select
