@@ -1,6 +1,6 @@
 // import React from 'react'
 import "./Footer.css";
-import LogoIpsum from "../../images/logowhite";
+import LogoIpsum1 from "../../images/logowhite";
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
       <div className="container2">
         <div className="main__links">
           <div>
-            <img src={LogoIpsum} />
+            <img src={LogoIpsum1} alt="" />
             <p style={{ maxWidth: "400px" }}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
               incidunt voluptatibus neque distinctio enim quidem, explicabo illo
@@ -34,7 +34,7 @@ function Footer() {
               <h3>Company</h3>
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
-              <a href="#">Code of COnduct</a>
+              <a href="#">Code of Conduct</a>
             </div>
           </div>
         </div>

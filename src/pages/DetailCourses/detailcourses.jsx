@@ -1,4 +1,3 @@
-import React from "react";
 import { Header } from "../../components/header/header";
 import Homelink3 from "../../components/Homelinkpages/homelink3";
 import { AiFillStar } from "react-icons/ai";
@@ -20,6 +19,7 @@ const Detailcourses = () => {
           <AiFillStar />
           <AiFillStar />
         </span>
+        <h3 className="text-[#00]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo id magni quos, accusantium non voluptas! Quidem suscipit pariatur culpa fugit amet ducimus! A tempora alias eum aliquid et architecto ratione.</h3>
       </div>
       <Footer />
     </div>
